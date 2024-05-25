@@ -51,7 +51,16 @@ git push origin main
 git checkout -b develop
 ```
 
-## issue와 commit 연결하기
+### 6. 브랜치(Branch) 삭제하기
+
+- 보통 feature 브랜치를 생성해 작업한 다음, 작업이 끝나면 삭제함
+- 필요없는 브랜치는 다음과 같이 삭제할 수 있음
+
+```bash
+git branch -D 삭제할-브랜치-이름
+```
+
+## 7. issue와 commit 연결하기
 
 - 커밋 메시지에 이슈 번호를 작성하면 issue와 commit이 연결됨
 
