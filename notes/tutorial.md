@@ -50,3 +50,12 @@ git push origin main
 # develop 브랜치 생성 후 바로 전환
 git checkout -b develop
 ```
+
+## issue와 commit 연결하기
+
+- 커밋 메시지에 이슈 번호를 작성하면 issue와 commit이 연결됨
+
+```bash
+git commit -m "이슈 연결 #1" # 이슈 번호가 #1인 경우
+git commit -m "#2 이슈 연결"
+```
